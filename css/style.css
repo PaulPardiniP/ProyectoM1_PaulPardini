@@ -2,7 +2,7 @@ body {
     background-color: rgb(232, 240, 188);
     color:black;
     font-family: "Stalemate";
-    background-image: url(/img/fondo.jpg);
+    background-image: url("/img/fondo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
