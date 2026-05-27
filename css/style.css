@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(232, 240, 188);
+    color:black;
+    font-family: "Stalemate";
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titlemain {
+    font-size: 105px;
+    text-align: center;
+    color:white;
+      text-shadow: 1px 1px 3px black;
+}
+
+.header- {
+    text-align: center;
+}
+
+.imglogo {
+    width: 550px;
+}
+
+.sub {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 40px;
+    color:rgb(0, 41, 77);
+}
+
+.business {
+    text-align: center;
+    font-family: "Cormorant";
+    font-size: 25px;
+    color:rgba(0, 41, 77, 0.804);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mundo {
+    width: 800px;
+}
+
+.test-color {
+    font-family: "Cormorant";
+    text-align: center;
+    font-size: 21px;
+    color: rgba(137, 43, 226, 0.805);
+}
+
+#btnmain {
+    font-family: "Stalemate";
+    font-size: 30px;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.805);
+    border: none;
+    border-radius: 35px;
+    padding: 5px 60px 5px 60px;
+    margin: 25px;
+}
+
+#color-on {
+    font-family: "Cormorant";
+    font-size: 17px;
+    display:none;
+    color:black;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+#palette-size {
+    background-color: rgba(99, 46, 46, 0.743);
+    color: aliceblue;
+    padding:8px;
+    border-radius: 10px;
+}
+
+#actionbtn {
+    font-family: "Cormorant";
+    font-size: 18px;
+    color: white;
+    background-color: rgba(99, 46, 46, 0.743);
+    border: none;
+    border-radius: 35px;
+    padding: 5px 30px 5px 30px;
+    margin: 25px;
+}
+
+.color-yes {
+    font-family: "Cormorant";
+    display:none;
+    color:black;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.color-card {
+    border-radius: 20px;
+    padding:15px;
+    margin-bottom:20px;
+    height: 150px;
+    display:flex;
+    align-items: end;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+#feedback-m {
+    font-family: "Cormorant";
+    display:none;
+    color:rgb(58, 159, 11);
+    margin-bottom: 15px;
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+}
+
+#btnmain:hover,
+#actionbtn:hover,
+#palette-size:hover {
+
+    background-color: rgba(224, 98, 98, 0.513);
+
+}
